@@ -1,0 +1,60 @@
+{
+  "creditcoinTestnet": {
+    "CreditRegistry": "0x55a20F3023f379739966e3109f98927813E6CA02",
+    "deployedAt": "2026-08-26T06:52:15.208Z",
+    "deployer": "0x1E3a27a2c83110EB64B59EeDAA6244FF32490087",
+    "TestUSD": "0x2d0108B330680F41FB25caD00b42e1245229f40F",
+    "CreditLine": "0x634071a3B31a61881b28E846CE93A86B023eE7e7"
+  },
+  "sepolia": {
+    "TestUSD": "0xF2062F5E7680d1ABfD194af9379C911328634359",
+    "DemoLendingPool": "0x1da0c2F508266c60dCAB149bb24a206eeD329ec5",
+    "lastRepay": {
+      "hash": "0x7b6778b7916b35ab87264d88a9f5c8180c79b485d28b418d2ef2813dd1a3bc32",
+      "block": 11567880,
+      "logIndex": 1,
+      "borrower": "0x1E3a27a2c83110EB64B59EeDAA6244FF32490087",
+      "amount": "250000"
+    },
+    "AaveV3Pool": "0x6Ae43d3271ff6888e7Fc43Fd7321a503ff738951",
+    "aaveRepay": {
+      "hash": "0xf7e43379158c55e9a00773b98b5a0344ddcf79a5bbac32ffe32a5b3440a0279f",
+      "block": 11569138,
+      "logIndex": 5,
+      "borrower": "0x1E3a27a2c83110EB64B59EeDAA6244FF32490087",
+      "asset": "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357",
+      "symbol": "DAI",
+      "collateral": "0xf8Fb3713D459D7C1018BD0A49D19b4C44290EBE5",
+      "amount": "2500000000000000000"
+    },
+    "aaveHistory": [
+      {
+        "hash": "0x2c182bef74957f95d2ebe542e981b7c9f4a01656abd97bf5a0470cfa18c4a8ee",
+        "block": 11569290,
+        "logIndex": 5,
+        "amount": "2000000000000000000"
+      },
+      {
+        "hash": "0xb71542c65e71ca997a06ecd5fa6c65c3bdeccb9667e5e7378edd3e07cd7f593a",
+        "block": 11569291,
+        "logIndex": 5,
+        "amount": "2000000000000000000"
+      },
+      {
+        "hash": "0x0f9c498f1ba15f3ad91f11445756eb3d378ea1ca79618c5c9672f01176e09328",
+        "block": 11569292,
+        "logIndex": 5,
+        "amount": "2000000000000000000"
+      }
+    ],
+    "CompoundV3Comet": "0xAec1F48e02Cfb822Be958B68C7957156EB3F0b6e",
+    "cometRepay": {
+      "hash": "0x7c8320bf5fe8d1864b6e44fc25b4c5e08d18688cc46241a6e2ecc7d41ba3f86d",
+      "block": 11569361,
+      "logIndex": 1,
+      "borrower": "0x1E3a27a2c83110EB64B59EeDAA6244FF32490087",
+      "amount": "800000",
+      "topic": "0xd1cf3d156d5f8f0d50f6c122ed609cec09d35c9b9fb3fff6ea0959134dae424e"
+    }
+  }
+}
