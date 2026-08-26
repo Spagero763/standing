@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Standing. Credit history that travels between chains.">
+  <title>Standing</title>
+
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="fade" cx="50%" cy="0%" r="85%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask">
+      <rect width="1280" height="640" fill="url(#fade)"/>
+    </mask>
+    <linearGradient id="spine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="#07070B"/>
+  <rect width="1280" height="640" fill="url(#grid)" mask="url(#gridMask)"/>
+
+  <g transform="translate(104 148)">
+    <g fill="#2DD4BF">
+      <rect x="6" y="44" width="52" height="7" rx="3.5" opacity="0.32"/>
+      <rect x="15" y="32" width="34" height="7" rx="3.5" opacity="0.58"/>
+      <rect x="24" y="20" width="16" height="7" rx="3.5" opacity="0.84"/>
+      <rect x="27" y="5" width="10" height="10" rx="2" transform="rotate(45 32 10)"/>
+    </g>
+  </g>
+
+  <text x="104" y="308"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="92"
+        letter-spacing="-2.5"
+        fill="#E9E9F0">Standing</text>
+
+  <text x="104" y="366"
+        font-family="ui-monospace, 'SFMono-Regular', Menlo, monospace"
+        font-size="17"
+        letter-spacing="3.4"
+        fill="#5EEAD4">CREDIT THAT TRAVELS BETWEEN CHAINS</text>
+
+  <text x="104" y="432"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="25"
+        fill="#8B8FA3">Repayments proven from the money markets that already exist,</text>
+  <text x="104" y="468"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="25"
+        fill="#8B8FA3">verified on chain, lent against with no collateral.</text>
+
+  <rect x="104" y="524" width="150" height="1" fill="#2DD4BF" opacity="0.45"/>
+
+  <text x="104" y="562"
+        font-family="ui-monospace, 'SFMono-Regular', Menlo, monospace"
+        font-size="15"
+        letter-spacing="1.2"
+        fill="#6B7080">Aave V3 &#183; Compound V3 &#183; Attestcoin Protocol &#183; no oracles</text>
+
+  <g transform="translate(1040 168)" opacity="0.9">
+    <rect x="0" y="0" width="3" height="304" fill="url(#spine)" opacity="0.5"/>
+    <circle cx="1.5" cy="14" r="7" fill="#2DD4BF"/>
+    <circle cx="1.5" cy="90" r="5" fill="#2DD4BF" opacity="0.7"/>
+    <circle cx="1.5" cy="166" r="5" fill="#2DD4BF" opacity="0.55"/>
+    <circle cx="1.5" cy="242" r="5" fill="#A78BFA" opacity="0.7"/>
+    <circle cx="1.5" cy="296" r="7" fill="#A78BFA"/>
+
+    <text x="26" y="19" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#8B8FA3">repaid on Aave</text>
+    <text x="26" y="95" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#8B8FA3">block attested</text>
+    <text x="26" y="171" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#8B8FA3">proof assembled</text>
+    <text x="26" y="247" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#8B8FA3">verified on chain</text>
+    <text x="26" y="301" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#C4B5FD">credit unlocked</text>
+  </g>
+</svg>

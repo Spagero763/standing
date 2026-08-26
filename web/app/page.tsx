@@ -27,11 +27,6 @@ export default function Home() {
 function Hero() {
   return (
     <header>
-      <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.18em] text-muted">
-        <span className="h-1.5 w-1.5 rounded-full bg-proof" />
-        live on {creditcoin.name}
-      </p>
-
       <h1 className="max-w-3xl text-4xl font-medium leading-[1.08] tracking-tight sm:text-6xl">
         We read Aave.
         <br />
