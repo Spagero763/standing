@@ -5,6 +5,10 @@ Credit history that travels between chains, proven rather than claimed.
 Repay a loan on Aave or Compound. Prove that repayment on Creditcoin. Borrow
 against it with nothing posted as collateral.
 
+**[standing-credit.vercel.app](https://standing-credit.vercel.app)** is running
+against the deployed contracts. Connect a wallet on Creditcoin CC3 testnet to see
+a real proven record and draw against it.
+
 **[How the Attestcoin Protocol integration works](docs/ATTESTCOIN.md)** covers the
 precompile surface, the transaction encoding, the checks the registry enforces
 and the measured gas. Start there if you are here to read the technical detail.
